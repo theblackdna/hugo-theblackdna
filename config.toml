@@ -1,0 +1,36 @@
+baseURL = '/'
+publishDir = 'public'
+languageCode = 'en-us'
+title = 'Dan Chavez | Full Stack Developer'
+author = 'Dan Chavez'
+canonifyurls = true
+paginate = 3
+theme = "hugo-nanx2022"
+
+enableEmoji = true
+hasCJKLanguage = true
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_cache$", "\\.knit\\.md$", "\\.utf8\\.md$"]
+
+[params]
+pagetitle = "Dan Chavez"
+copyright = "© 2023 Dan Chavez"
+faviconfile = ""
+logofile = ""
+logoalt = "Logo"
+posts_navigation = true
+uselatex = true
+highlightjs = true
+highlightjslanguages = ["r"]
+progressively = true
+commentsrepo = ""
+
+github = "dnachavez"
+twitter = "dnachavez"
+linkedin = "dnachavez"
+colophon = "/colophon/"
