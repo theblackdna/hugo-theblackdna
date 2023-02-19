@@ -28,9 +28,6 @@ uselatex = true
 highlightjs = true
 highlightjslanguages = ["r"]
 progressively = true
-commentsrepo = ""
+commentsrepo = "hugo-theblackdna-comments"
 
 github = "dnachavez"
-twitter = "dnachavez"
-linkedin = "dnachavez"
-colophon = "/colophon/"
